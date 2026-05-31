@@ -37,7 +37,7 @@ Google Form → Google Sheets → Zapier → Gmail → Confirmation Email
 | ------------- | --------------------------------------------------- | ------------- |
 | Kash          | kash@gmail.com             | AI Automation |
 | Kashish Patel | noreply.zerowaste10@gmail.com | SEO           |
-| Sample User   | sample@gmail.com(mailto:sample@gmail.com)         | Marketing     |
+| Sample User   | sample@gmail.com         | Marketing     |
 
 ---
 
