@@ -1,130 +1,265 @@
-# AI Internship – Week 1 Tasks
+# AIML Internship - Week 1 Assignment
 
-## Overview
+# Student Performance Analysis
 
-This repository contains the completed Week 1 internship tasks assigned during the AI Internship program. The tasks focus on AI research, prompt engineering, and no-code workflow automation using industry-relevant tools.
+## Internship Week Summary
 
----
+This repository contains the Week 1 AIML Internship assignment focused on:
 
-# Task 1: AI Research Task
-
-## Objective
-
-Research the latest advancements in Artificial Intelligence and create a presentation highlighting key AI trends and their real-world applications.
-
-## Topics Covered
-
-* Generative AI (GenAI)
-* Large Language Models (LLMs)
-* AI Agents
-* Computer Vision
-* AI Ethics
-
-## Deliverables
-
-* AI Research Presentation (PPT/PDF)
-* Statistics and graphs from recent AI reports
-* References from trusted sources
-
-## Tools Used
-
-* Canva / PowerPoint
-* Google Scholar
-* Stanford AI Index Report
-* MIT Technology Review
-* ArXiv
-* Towards Data Science
+- Dataset Analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Insight Generation
+- GitHub Documentation and Reporting
 
 ---
 
-# Task 2: Prompt Engineering Practice
+## Author
 
-## Objective
-
-Create effective prompts for ChatGPT/Gemini using different prompt engineering techniques for startup and business use cases.
-
-## Prompt Engineering Techniques Used
-
-* Zero-Shot Prompting
-* Few-Shot Prompting
-* Chain-of-Thought Prompting
-
-## Categories Covered
-
-* Marketing
-* Finance
-* Human Resources (HR)
-* Product Management
-
-## Deliverables
-
-* 20 Business-Oriented Prompts
-* Goal, Prompt, and Expected Output for each prompt
-* Prompt Testing Observations
+**Kashish Patel**  
+B.Sc. Information Technology  
+AIML Internship Program
 
 ---
 
-# Task 3: AI Automation Workflow
+## Project Objective
 
-## Objective
-
-Design and implement a no-code automation workflow using Zapier.
-
-## Workflow
-
-Google Form → Google Sheets → Zapier Trigger → Gmail Automation → Confirmation Email
-
-## Workflow Logic
-
-1. User submits details through a Google Form.
-2. Responses are automatically stored in Google Sheets.
-3. Zapier detects a new spreadsheet row.
-4. Gmail action is triggered automatically.
-5. Confirmation email is sent to the user.
-
-## Tools Used
-
-* Google Forms
-* Google Sheets
-* Zapier
-* Gmail
-
-## Features
-
-* Automated data collection
-* Automated email response
-* Real-time workflow execution
-* No-code automation
+The objective of this project is to analyze student academic performance data, identify meaningful patterns, perform data cleaning, generate visual insights, and create business-oriented recommendations based on data-driven findings.
 
 ---
 
-# Technologies and Tools Used
+## Dataset Information
 
-* ChatGPT
-* Google Forms
-* Google Sheets
-* Zapier
-* Gmail
-* Canva
-* PowerPoint
-* GitHub
+### Dataset Name
+
+Students Performance in Exams
+
+### Dataset Source
+
+https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
+
+### Dataset Description
+
+The dataset contains demographic and academic information of students, including:
+
+- Gender
+- Race/Ethnicity
+- Parental Level of Education
+- Lunch Type
+- Test Preparation Course
+- Math Score
+- Reading Score
+- Writing Score
+
+An additional feature called **AverageScore** was created during the analysis to represent overall academic performance.
 
 ---
 
-# Learning Outcomes
+## Libraries Used
 
-Through these tasks, I gained practical experience in:
+The following Python libraries were used:
 
-* AI trend research and analysis
-* Prompt engineering techniques
-* No-code workflow automation
-* Business process automation
-* Documentation and presentation skills
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- IPykernel
 
 ---
 
-# Author
+## Tasks Performed
 
-Kashish Patel
+### Task 1: Student Performance Dataset Analysis
 
-AI Internship – Week 1 Submission
+Performed:
+
+- Dataset loading and inspection
+- Dataset preview using head() and tail()
+- Shape analysis
+- Data type verification
+- Missing value analysis
+- Duplicate record analysis
+- Feature understanding
+- Data cleaning
+- Target variable creation
+- Descriptive statistics generation
+- Observation writing
+- Dataset summary preparation
+
+### Task 2: Data Visualization Project
+
+Created visualizations including:
+
+- Histogram of Average Scores
+- Test Preparation vs Average Score Boxplot
+- Reading Score vs Writing Score Scatter Plot
+- Correlation Heatmap
+- Parental Education vs Average Score Bar Chart
+
+Each visualization includes interpretation and insights.
+
+### Task 3: Business Insight Report
+
+Prepared a business-oriented report containing:
+
+- Objective
+- Dataset Summary
+- Analysis Approach
+- Business Questions
+- Key Findings
+- Recommendations
+- Limitations
+- Conclusion
+
+---
+
+## Key Findings
+
+### 1. Test Preparation Matters
+
+Students who completed the test preparation course achieved significantly higher average scores than students who did not complete the course.
+
+### 2. Reading and Writing Are Strongly Related
+
+Reading and writing scores demonstrated a very strong positive correlation, indicating a close relationship between the two academic skills.
+
+### 3. Most Students Show Moderate Performance
+
+The majority of students scored between 60 and 80 marks across subjects.
+
+### 4. Academic Scores Are Highly Correlated
+
+Performance in one subject is strongly associated with performance in other subjects.
+
+### 5. Parental Education Influences Performance
+
+Students whose parents have higher education levels tend to achieve slightly higher average scores.
+
+---
+
+## Repository Structure
+
+```text
+AIML_Week1_Assignment/
+│
+├── data/
+│   ├── raw/
+│   │   └── StudentsPerformance.csv
+│   │
+│   └── cleaned/
+│       └── students_performance_cleaned.csv
+│
+├── notebooks/
+│   ├── week1_analysis.ipynb
+│   └── week1_business_report.ipynb
+│
+├── outputs/
+│   ├── charts/
+│   └── reports/
+│
+├── screenshots/
+│
+├── src/
+│
+├── README.md
+│
+└── requirements.txt
+```
+
+---
+
+## Visualizations Generated
+
+- Distribution of Average Scores
+- Test Preparation Impact Analysis
+- Reading vs Writing Relationship
+- Correlation Heatmap
+- Parental Education Analysis
+
+---
+
+## Screenshots
+
+### Dataset Preview
+
+![Dataset Preview](screenshots/Dataset%20Preview.png)
+
+### Missing Value Analysis
+
+![Missing Values](screenshots/Missing%20Value%20Analysis.png)
+
+### Descriptive Statistics
+
+![Descriptive Statistics](screenshots/Descriptive%20Statistics.png)
+
+### Distribution Plot
+
+![Distribution Plot](screenshots/Histogram.png)
+
+### Correlation Heatmap
+
+![Heatmap](screenshots/HeatMap.png)
+
+### Business Report Preview
+
+![Business Report](screenshots/Business%20Report.png)
+
+---
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open Jupyter Notebook or VS Code
+
+Run:
+
+```text
+notebooks/week1_analysis.ipynb
+```
+
+and
+
+```text
+notebooks/week1_business_report.ipynb
+```
+
+---
+
+## Results
+
+The analysis demonstrates that:
+
+- Test preparation positively impacts academic performance.
+- Reading and writing skills are strongly connected.
+- Academic scores show strong positive correlations.
+- Demographic and educational factors influence student outcomes.
+- Data-driven analysis can help identify opportunities for educational improvement.
+
+---
+
+## Conclusion
+
+This project successfully applied data cleaning, exploratory data analysis, visualization, and business reporting techniques to a real-world educational dataset.
+
+The findings provide meaningful insights into factors associated with student academic performance and demonstrate the practical application of data analysis techniques in educational decision-making.
+
+---
+
+## Internship Program
+
+WeIntern Pvt Ltd – AIML Internship Program
+
+Week 1 Assignment Submission
