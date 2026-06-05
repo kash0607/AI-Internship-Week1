@@ -184,27 +184,36 @@ AIML_Week1_Assignment/
 
 ### Dataset Preview
 
-![Dataset Preview](screenshots/Dataset%20Preview.png)
+<img width="906" height="785" alt="Dataset Preview" src="https://github.com/user-attachments/assets/8ffc9da4-249e-4c84-8c1f-c4cc15f43f77" />
 
 ### Missing Value Analysis
 
-![Missing Values](screenshots/Missing%20Value%20Analysis.png)
+<img width="898" height="418" alt="Missing Value Analysis" src="https://github.com/user-attachments/assets/d32442a2-5e53-44dc-bbbb-9ceba4b115fe" />
 
 ### Descriptive Statistics
 
-![Descriptive Statistics](screenshots/Descriptive%20Statistics.png)
-
-### Distribution Plot
-
-![Distribution Plot](screenshots/Histogram.png)
+<img width="905" height="478" alt="Descriptive Statistics" src="https://github.com/user-attachments/assets/d933cc21-75cf-4a8e-8216-df7af94670fc" />
 
 ### Correlation Heatmap
 
-![Heatmap](screenshots/HeatMap.png)
+<img width="906" height="891" alt="HeatMap" src="https://github.com/user-attachments/assets/d5fa4cf4-e39f-4386-961b-92d7fbc423f7" />
 
-### Business Report Preview
+### Histogram
 
-![Business Report](screenshots/Business%20Report.png)
+<img width="885" height="855" alt="Histogram" src="https://github.com/user-attachments/assets/da35c3ed-43ef-4ea7-9dd2-ddcc38ddd9c1" />
+
+### Boxplot
+
+<img width="912" height="840" alt="Boxplot" src="https://github.com/user-attachments/assets/a0723e2c-1e7b-4f94-89bd-6204353466f5" />
+
+### BarChart
+
+<img width="912" height="887" alt="BarChart" src="https://github.com/user-attachments/assets/bae19c2e-08dd-49dc-bafe-56dc3662a587" />
+
+### Scatter Plot
+
+<img width="916" height="856" alt="Scatter Plot" src="https://github.com/user-attachments/assets/85c3af25-5c46-4504-8420-fe4b4d7de986" />
+
 
 ---
 
